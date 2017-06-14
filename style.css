@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+div#Afaire{
+
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+
+}
+
+div#Archive{
+    width: 500px;
+    height: 180px;
+    border: 1px solid;
+
+}
+
+div#strike{
+    text-decoration-line:line-through;
+}
+
+label#decoLine{
+	text-decoration: line-through;
+}
