@@ -83,7 +83,7 @@ file_put_contents('todo.json', json_encode($json));
 
 function Add_Item_Json($task){
 
-echo "text box " . $task;
+//echo "text box " . $task;
 
 $data = file_get_contents("todo.json");
 $json = json_decode($data, true);
