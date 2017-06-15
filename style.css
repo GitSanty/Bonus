@@ -1,15 +1,39 @@
+body{
+	background-repeat: no-repeat;
+ 	background:url(https://i.ytimg.com/vi/4kfXjatgeEU/maxresdefault.jpg);
+ 	font-family: 'Oxygen', sans-serif;
+	    background-size: cover;
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 500px;
+    padding: 10px 2px;
+	background:#009edf;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+
 h1{
     text-align: center;
 }
 
 h4 {
     text-align: left;
+    text-decoration-line: underline;
+    color: black;
 }
 div#Afaire{
 
     width: 500px;
     height: 500px;
     border: 1px solid;
+    overflow-y: scroll;
 
 }
 
@@ -27,3 +51,11 @@ div#strike{
 label#decoLine{
 	text-decoration: line-through;
 }
+
+#draggable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+}
+
+ 
